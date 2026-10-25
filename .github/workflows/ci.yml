@@ -28,4 +28,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Executar suíte de testes
-        run: pytest tests/test_harness.py -v
+        run: PYTHONPATH=. pytest tests/test_harness.py -v
