@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  testes:
+    build: .
+    image: task-analyzer-test
+    container_name: task-analyzer-test-runner
